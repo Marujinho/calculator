@@ -22,7 +22,7 @@ export default function App() {
   function buttonPressed(text){
 
       if(text == '='){
-        return validate() && calculateResult(calculation) && setCalculation(result)
+        return validate() && calculateResult(calculation) 
       }else{
         return setCalculation(calculation+text)
       }
